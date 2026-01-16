@@ -23,7 +23,7 @@ project "NVRHI"
         "thirdparty/DirectX-Headers/include"
     }
 
-    sysincludedirs {
+    externalincludedirs {
         "thirdparty/Vulkan-Headers/include",
         "thirdparty/DirectX-Headers/include"
     }
